@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play List</title>
+    <link rel="stylesheet" href="Playlist.css">
+
+    <script src="https://kit.fontawesome.com/cb06fec0a1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+ <!--music calisisi-->
+ <div class="music-player">
+    <!-- oynatma listesi-->
+    <button id="playlist">
+        <i class="fa-solid fa-angle-down"></i>
+    </button>
+    <!-- sarkici resmi-->
+    <img src="songs/ariana.jpeg" alt="" id="song-image">
+    <!-- sarki detayi -->
+    <div class="song-details">
+        <p id="song-name">We can't be friends</p>
+        <p id="song-artist"></p>
+    </div>
+    <!--oynatma secenekleri-->
+    <div class="player-options">
+        <button id="shuffle">
+            <i class="fa-solid fa-shuffle"></i>
+        </button>
+        <button id="prev" class="pointer">
+            <i class="fa-solid fa-backward-step"></i>
+        </button>
+        <button id="play" class="pointer">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        <button id="pause" class="hide pointer ">
+            <i class="fa-solid fa-pause"></i>
+        </button>
+        <button id="next" class="pointer">
+            <i class="fa-solid fa-forward-step"></i>
+        </button>
+        <button id="repeat">
+            <i class="fa-solid fa-repeat"></i>
+        </button>
+    </div>
+    <!-- ses -->
+    <audio id="audio" preload="metadata" src="songs/Ariana Grande - we cant be friends (wait for your love) (official music video).mp3" ></audio>
+    <div id="progress-bar">
+        <div id="current-progress"></div>
+    </div>
+    <!-- zaman -->
+    <div class="time-container">
+        <span id="current-time">01.23</span>
+        <span id="max-duration">03.45</span>
+    </div>
+    <!--sarki listesi-->
+    <div id="playlist-container" >
+        <button id="close-button">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul id="playlist-songs"></ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--
+   var ec6 let, ec7 const js versiyonlar ->
+   ec8
+   %1
+
+   React, Vue, Angular -> %99 js tam bilmez
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="Playlist.js"></script>
+
+</body>
+</html>
