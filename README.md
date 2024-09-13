@@ -1,12 +1,12 @@
 # Mp3-Player
-Responsive ve dinamik bir Mp3 Player uygulaması geliştirilmiştir.
+This project allows users to easily access and listen to the song list they have created.it is also fully responsive and offers ease of use on any device.
 
-# Kullanılan Teknolojiler
+# Used Technologies
 -HTML
 -CSS
 -Javascript
 
-# Ekran Görüntüleri
+# Preview
 
 ![](songs/ss1.png)
 ![](songs/ss2.png)
