@@ -1,10 +1,10 @@
-# Mp3-Player
+# Mp3-Player Website
 This project allows users to easily access and listen to the song list they have created.it is also fully responsive and offers ease of use on any device.
 
 # Used Technologies
--HTML
--CSS
--Javascript
+- HTML for structure.
+- CSS for styling and layout.
+- JavaScript for dynamic content and interactivity.
 
 # Preview
 
